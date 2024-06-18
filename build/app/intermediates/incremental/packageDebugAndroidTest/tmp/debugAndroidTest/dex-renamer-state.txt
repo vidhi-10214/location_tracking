@@ -1,0 +1,4 @@
+#Wed Oct 11 15:07:37 IST 2023
+base.0=/Users/singsys-macbook/Documents/locationCapture/build/app/intermediates/dex/debugAndroidTest/mergeDexDebugAndroidTest/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

@@ -1,0 +1,7 @@
+com.example.location_tracking.test.app-androidTest-0 /Users/singsys-macbook/Documents/locationCapture/android/app/src/androidTest/res
+com.example.location_tracking.test.app-androidTestDebug-1 /Users/singsys-macbook/Documents/locationCapture/android/app/src/androidTestDebug/res
+com.example.location_tracking.test.app-androidTest-2 /Users/singsys-macbook/Documents/locationCapture/build/app/generated/res/resValues/androidTest/debug
+com.example.location_tracking.test.app-androidTest-3 /Users/singsys-macbook/Documents/locationCapture/build/app/generated/res/rs/androidTest/debug
+com.example.location_tracking.test.app-mergeDebugAndroidTestResources-4 /Users/singsys-macbook/Documents/locationCapture/build/app/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
+com.example.location_tracking.test.app-mergeDebugAndroidTestResources-5 /Users/singsys-macbook/Documents/locationCapture/build/app/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
+com.example.location_tracking.test.app-merged_res-6 /Users/singsys-macbook/Documents/locationCapture/build/app/intermediates/merged_res/debugAndroidTest

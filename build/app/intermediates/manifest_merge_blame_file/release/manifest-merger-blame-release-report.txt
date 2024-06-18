@@ -1,0 +1,153 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.location_tracking"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->/Users/singsys-macbook/Documents/locationCapture/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/Users/singsys-macbook/Documents/locationCapture/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/singsys-macbook/Documents/locationCapture/android/app/src/main/AndroidManifest.xml:2:5-67
+11-->/Users/singsys-macbook/Documents/locationCapture/android/app/src/main/AndroidManifest.xml:2:22-64
+12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+12-->/Users/singsys-macbook/Documents/locationCapture/android/app/src/main/AndroidManifest.xml:3:5-79
+12-->/Users/singsys-macbook/Documents/locationCapture/android/app/src/main/AndroidManifest.xml:3:22-76
+13    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+13-->/Users/singsys-macbook/Documents/locationCapture/android/app/src/main/AndroidManifest.xml:4:5-81
+13-->/Users/singsys-macbook/Documents/locationCapture/android/app/src/main/AndroidManifest.xml:4:22-78
+14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+14-->/Users/singsys-macbook/Documents/locationCapture/android/app/src/main/AndroidManifest.xml:5:5-81
+14-->/Users/singsys-macbook/Documents/locationCapture/android/app/src/main/AndroidManifest.xml:5:22-78
+15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+15-->/Users/singsys-macbook/Documents/locationCapture/android/app/src/main/AndroidManifest.xml:6:5-80
+15-->/Users/singsys-macbook/Documents/locationCapture/android/app/src/main/AndroidManifest.xml:6:22-77
+16    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+16-->/Users/singsys-macbook/Documents/locationCapture/android/app/src/main/AndroidManifest.xml:8:5-82
+16-->/Users/singsys-macbook/Documents/locationCapture/android/app/src/main/AndroidManifest.xml:8:22-79
+17    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+17-->/Users/singsys-macbook/Documents/locationCapture/android/app/src/main/AndroidManifest.xml:9:5-76
+17-->/Users/singsys-macbook/Documents/locationCapture/android/app/src/main/AndroidManifest.xml:9:22-73
+18    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
+18-->/Users/singsys-macbook/Documents/locationCapture/android/app/src/main/AndroidManifest.xml:10:5-74
+18-->/Users/singsys-macbook/Documents/locationCapture/android/app/src/main/AndroidManifest.xml:10:22-72
+19
+20    <permission
+20-->[androidx.core:core:1.9.0] /Users/singsys-macbook/.gradle/caches/transforms-3/c2aff38445ebad8ddeaa989ecf50f56e/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+21        android:name="com.example.location_tracking.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+21-->[androidx.core:core:1.9.0] /Users/singsys-macbook/.gradle/caches/transforms-3/c2aff38445ebad8ddeaa989ecf50f56e/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+22        android:protectionLevel="signature" />
+22-->[androidx.core:core:1.9.0] /Users/singsys-macbook/.gradle/caches/transforms-3/c2aff38445ebad8ddeaa989ecf50f56e/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+23
+24    <uses-permission android:name="com.example.location_tracking.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+24-->[androidx.core:core:1.9.0] /Users/singsys-macbook/.gradle/caches/transforms-3/c2aff38445ebad8ddeaa989ecf50f56e/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+24-->[androidx.core:core:1.9.0] /Users/singsys-macbook/.gradle/caches/transforms-3/c2aff38445ebad8ddeaa989ecf50f56e/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+25
+26    <application
+27        android:name="android.app.Application"
+27-->/Users/singsys-macbook/Documents/locationCapture/android/app/src/main/AndroidManifest.xml:15:9-42
+28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+28-->[androidx.core:core:1.9.0] /Users/singsys-macbook/.gradle/caches/transforms-3/c2aff38445ebad8ddeaa989ecf50f56e/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+29        android:icon="@mipmap/ic_launcher"
+29-->/Users/singsys-macbook/Documents/locationCapture/android/app/src/main/AndroidManifest.xml:16:9-43
+30        android:label="location_tracking"
+30-->/Users/singsys-macbook/Documents/locationCapture/android/app/src/main/AndroidManifest.xml:14:9-42
+31        android:requestLegacyExternalStorage="true" >
+31-->/Users/singsys-macbook/Documents/locationCapture/android/app/src/main/AndroidManifest.xml:13:9-52
+32        <activity
+32-->/Users/singsys-macbook/Documents/locationCapture/android/app/src/main/AndroidManifest.xml:17:9-37:20
+33            android:name="com.example.location_tracking.MainActivity"
+33-->/Users/singsys-macbook/Documents/locationCapture/android/app/src/main/AndroidManifest.xml:18:13-41
+34            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+34-->/Users/singsys-macbook/Documents/locationCapture/android/app/src/main/AndroidManifest.xml:22:13-163
+35            android:exported="true"
+35-->/Users/singsys-macbook/Documents/locationCapture/android/app/src/main/AndroidManifest.xml:19:13-36
+36            android:hardwareAccelerated="true"
+36-->/Users/singsys-macbook/Documents/locationCapture/android/app/src/main/AndroidManifest.xml:23:13-47
+37            android:launchMode="singleTop"
+37-->/Users/singsys-macbook/Documents/locationCapture/android/app/src/main/AndroidManifest.xml:20:13-43
+38            android:theme="@style/LaunchTheme"
+38-->/Users/singsys-macbook/Documents/locationCapture/android/app/src/main/AndroidManifest.xml:21:13-47
+39            android:windowSoftInputMode="adjustResize" >
+39-->/Users/singsys-macbook/Documents/locationCapture/android/app/src/main/AndroidManifest.xml:24:13-55
+40
+41            <!--
+42                 Specifies an Android theme to apply to this Activity as soon as
+43                 the Android process has started. This theme is visible to the user
+44                 while the Flutter UI initializes. After that, this theme continues
+45                 to determine the Window background behind the Flutter UI.
+46            -->
+47            <meta-data
+47-->/Users/singsys-macbook/Documents/locationCapture/android/app/src/main/AndroidManifest.xml:29:13-32:17
+48                android:name="io.flutter.embedding.android.NormalTheme"
+48-->/Users/singsys-macbook/Documents/locationCapture/android/app/src/main/AndroidManifest.xml:30:15-70
+49                android:resource="@style/NormalTheme" />
+49-->/Users/singsys-macbook/Documents/locationCapture/android/app/src/main/AndroidManifest.xml:31:15-52
+50
+51            <intent-filter>
+51-->/Users/singsys-macbook/Documents/locationCapture/android/app/src/main/AndroidManifest.xml:33:13-36:29
+52                <action android:name="android.intent.action.MAIN" />
+52-->/Users/singsys-macbook/Documents/locationCapture/android/app/src/main/AndroidManifest.xml:34:17-68
+52-->/Users/singsys-macbook/Documents/locationCapture/android/app/src/main/AndroidManifest.xml:34:25-66
+53
+54                <category android:name="android.intent.category.LAUNCHER" />
+54-->/Users/singsys-macbook/Documents/locationCapture/android/app/src/main/AndroidManifest.xml:35:17-76
+54-->/Users/singsys-macbook/Documents/locationCapture/android/app/src/main/AndroidManifest.xml:35:27-74
+55            </intent-filter>
+56        </activity>
+57        <!--
+58             Don't delete the meta-data below.
+59             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+60        -->
+61        <meta-data
+61-->/Users/singsys-macbook/Documents/locationCapture/android/app/src/main/AndroidManifest.xml:40:9-42:33
+62            android:name="flutterEmbedding"
+62-->/Users/singsys-macbook/Documents/locationCapture/android/app/src/main/AndroidManifest.xml:41:13-44
+63            android:value="2" />
+63-->/Users/singsys-macbook/Documents/locationCapture/android/app/src/main/AndroidManifest.xml:42:13-30
+64
+65        <service
+65-->[:geolocator_android] /Users/singsys-macbook/Documents/locationCapture/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-14:56
+66            android:name="com.baseflow.geolocator.GeolocatorLocationService"
+66-->[:geolocator_android] /Users/singsys-macbook/Documents/locationCapture/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-77
+67            android:enabled="true"
+67-->[:geolocator_android] /Users/singsys-macbook/Documents/locationCapture/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-35
+68            android:exported="false"
+68-->[:geolocator_android] /Users/singsys-macbook/Documents/locationCapture/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-37
+69            android:foregroundServiceType="location" />
+69-->[:geolocator_android] /Users/singsys-macbook/Documents/locationCapture/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-53
+70
+71        <uses-library
+71-->[androidx.window:window:1.0.0-beta04] /Users/singsys-macbook/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+72            android:name="androidx.window.extensions"
+72-->[androidx.window:window:1.0.0-beta04] /Users/singsys-macbook/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+73            android:required="false" />
+73-->[androidx.window:window:1.0.0-beta04] /Users/singsys-macbook/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+74        <uses-library
+74-->[androidx.window:window:1.0.0-beta04] /Users/singsys-macbook/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+75            android:name="androidx.window.sidecar"
+75-->[androidx.window:window:1.0.0-beta04] /Users/singsys-macbook/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+76            android:required="false" />
+76-->[androidx.window:window:1.0.0-beta04] /Users/singsys-macbook/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+77
+78        <activity
+78-->[com.google.android.gms:play-services-base:18.1.0] /Users/singsys-macbook/.gradle/caches/transforms-3/781e5567158e59d38ee2b89930f9808b/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:9-22:45
+79            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+79-->[com.google.android.gms:play-services-base:18.1.0] /Users/singsys-macbook/.gradle/caches/transforms-3/781e5567158e59d38ee2b89930f9808b/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:19-85
+80            android:exported="false"
+80-->[com.google.android.gms:play-services-base:18.1.0] /Users/singsys-macbook/.gradle/caches/transforms-3/781e5567158e59d38ee2b89930f9808b/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:22:19-43
+81            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+81-->[com.google.android.gms:play-services-base:18.1.0] /Users/singsys-macbook/.gradle/caches/transforms-3/781e5567158e59d38ee2b89930f9808b/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:21:19-78
+82
+83        <meta-data
+83-->[com.google.android.gms:play-services-basement:18.1.0] /Users/singsys-macbook/.gradle/caches/transforms-3/58aa1384bde170d075503b845cfcf44c/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+84            android:name="com.google.android.gms.version"
+84-->[com.google.android.gms:play-services-basement:18.1.0] /Users/singsys-macbook/.gradle/caches/transforms-3/58aa1384bde170d075503b845cfcf44c/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+85            android:value="@integer/google_play_services_version" />
+85-->[com.google.android.gms:play-services-basement:18.1.0] /Users/singsys-macbook/.gradle/caches/transforms-3/58aa1384bde170d075503b845cfcf44c/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+86    </application>
+87
+88</manifest>

@@ -1,0 +1,12 @@
+io.flutter.plugins.deviceinfo.device_info-jetified-window-1.0.0-beta04-0 /Users/singsys-macbook/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/res
+io.flutter.plugins.deviceinfo.device_info-jetified-annotation-experimental-1.1.0-1 /Users/singsys-macbook/.gradle/caches/transforms-3/6c0c163cc77ae6c91f9f7dfcd179c29c/transformed/jetified-annotation-experimental-1.1.0/res
+io.flutter.plugins.deviceinfo.device_info-core-1.6.0-2 /Users/singsys-macbook/.gradle/caches/transforms-3/7e9df2ac2213a6bd3cef0f2f27870d79/transformed/core-1.6.0/res
+io.flutter.plugins.deviceinfo.device_info-jetified-window-java-1.0.0-beta04-3 /Users/singsys-macbook/.gradle/caches/transforms-3/ae81e06d24c799147c26814497a2a305/transformed/jetified-window-java-1.0.0-beta04/res
+io.flutter.plugins.deviceinfo.device_info-main-4 /Users/singsys-macbook/.pub-cache/hosted/pub.dev/device_info-2.0.3/android/src/main/res
+io.flutter.plugins.deviceinfo.device_info-release-5 /Users/singsys-macbook/.pub-cache/hosted/pub.dev/device_info-2.0.3/android/src/release/res
+io.flutter.plugins.deviceinfo.device_info-pngs-6 /Users/singsys-macbook/Documents/locationCapture/build/device_info/generated/res/pngs/release
+io.flutter.plugins.deviceinfo.device_info-resValues-7 /Users/singsys-macbook/Documents/locationCapture/build/device_info/generated/res/resValues/release
+io.flutter.plugins.deviceinfo.device_info-rs-8 /Users/singsys-macbook/Documents/locationCapture/build/device_info/generated/res/rs/release
+io.flutter.plugins.deviceinfo.device_info-mergeReleaseResources-9 /Users/singsys-macbook/Documents/locationCapture/build/device_info/intermediates/incremental/release/mergeReleaseResources/merged.dir
+io.flutter.plugins.deviceinfo.device_info-mergeReleaseResources-10 /Users/singsys-macbook/Documents/locationCapture/build/device_info/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+io.flutter.plugins.deviceinfo.device_info-merged_res-11 /Users/singsys-macbook/Documents/locationCapture/build/device_info/intermediates/merged_res/release

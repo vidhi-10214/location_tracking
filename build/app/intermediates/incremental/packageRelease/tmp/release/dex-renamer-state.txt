@@ -1,0 +1,4 @@
+#Wed Oct 11 19:17:18 IST 2023
+base.0=/Users/singsys-macbook/Documents/locationCapture/build/app/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
